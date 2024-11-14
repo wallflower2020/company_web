@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://wallflower2020.github.io/company_web",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -11,6 +12,7 @@
     "build-and-deploy": "npm run build && git checkout -b build-branch && rm -rf dist && git add dist && git commit -m 'add dist folder' && git push origin build-branch"
   },
   "dependencies": {
+    "antd": "^5.22.0",
     "lucide-react": "^0.453.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"

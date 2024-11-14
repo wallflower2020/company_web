@@ -1,0 +1,73 @@
+.header {
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    z-index: 999;
+}
+
+.logo {
+    width: 28vw;
+    height: 6vh;
+}
+
+.video {
+    width: 100vw;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.video_text {
+    position: absolute;
+    left: 2vw;
+    top: 25vh;
+    font-size: 68px;
+    font-weight: 300;
+    color: white;
+}
+
+.video_text_en {
+    position: absolute;
+    left: 2vw;
+    top: 40vh;
+    font-size: 48px;
+    color: #da2228;
+    font-family: "Rajdhani-Bold";
+    letter-spacing: -2px;
+    line-height: 1;
+}
+
+.viewimg {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    user-select: none; /* 禁止鼠标框选效果 */
+    /* pointer-events: none; */
+}
+
+.viewclose {
+    position: absolute;
+    right: 2vw;
+    top: 1vw;
+    width: 2vw;
+    height: 2vw;
+    z-index: 10;
+}
+
+.view_img {
+    width: 60vw;
+    /* height: 80vh; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    z-index: 9;
+}

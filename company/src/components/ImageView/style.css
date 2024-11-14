@@ -1,0 +1,25 @@
+/* 确保 Carousel 组件内部所有相关元素的高度为 100% */
+.ant-carousel .slick-slide {
+    height: 100%;
+}
+
+.ant-carousel .slick-list {
+    height: 100%;
+}
+
+.ant-carousel .slick-track {
+    height: 100%;
+}
+
+.view_img {
+    object-fit: cover; /* 确保图片按比例填充容器 */
+}
+
+.left_icon {
+    position: absolute;
+    left: 5px;
+    top: 10%;
+    transform: translateY(-50%);
+    width: 5vw;
+    height: 5vw;
+}
